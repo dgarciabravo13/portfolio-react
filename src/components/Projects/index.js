@@ -4,41 +4,49 @@ import {
   Tab,
   Grid,
   Cell,
-  Card,
-  CardTitle,
   CardActions,
   Button,
-  CardMenu,
-  IconButton,
   CardText,
 } from "react-mdl";
+import { Container, CardStyle, TitleStyle } from "./style";
 
-const Projects = (props) => {
+const Projects = () => {
   const [state, setState] = useState({ activeTab: 0 });
 
   const toggleCategories = () => {
     if (state.activeTab === 0) {
       return (
-        <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-          <CardTitle
-            style={{
-              color: "#fff",
-              height: "176px",
-              background: "url(https://reactjs.org/logo-og.png) center / cover",
-            }}
-          >
-            React Projects #1
-          </CardTitle>
-          <CardText>Este es el texto para el proyecto uno de React</CardText>
-          <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>Codepen</Button>
-            <Button colored>LiveDemo</Button>
-          </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
+        <Container>
+          <CardStyle shadow={5}>
+            <TitleStyle>React Projects #1</TitleStyle>
+            <CardText>Este es el texto para el proyecto uno de React</CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>Codepen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+          </CardStyle>
+
+          <CardStyle shadow={5}>
+            <TitleStyle>React Projects #2</TitleStyle>
+            <CardText>Este es el texto para el proyecto uno de React</CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>Codepen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+          </CardStyle>
+
+          <CardStyle shadow={5}>
+            <TitleStyle>React Projects #3</TitleStyle>
+            <CardText>Este es el texto para el proyecto uno de React</CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>Codepen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+          </CardStyle>
+        </Container>
       );
     } else if (state.activeTab === 1) {
       return (
