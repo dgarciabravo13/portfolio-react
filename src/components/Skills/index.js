@@ -1,11 +1,16 @@
 import React from "react";
 import { Grid, Cell } from "react-mdl";
-const Skills = () => {
+import {Container, Bar} from "./style";
+
+const Skills = ({skill, progress}) => {
   return (
     <div>
       <Grid>
         <Cell col={12}>
-          myCol
+          <Container>
+            {skill}
+            <Bar progress={progress}></Bar>
+          </Container>
         </Cell>
       </Grid>
     </div>

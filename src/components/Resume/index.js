@@ -69,7 +69,13 @@ const Resume = () => {
           />
           <HR />
           <h2>Habilidades</h2>
-          <Skills/>
+          <Skills skill={"JavaScript"} progress={75}/>
+          <Skills skill={"NodeJs"} progress={50}/>
+          <Skills skill={"React"} progress={50}/>
+          <Skills skill={"Vue"} progress={25}/>
+          <Skills skill={"Express"} progress={50}/>
+          <Skills skill={"HTML"} progress={70}/>
+          <Skills skill={"CSS"} progress={70}/>
         </CellRight>
       </Grid>
     </div>
