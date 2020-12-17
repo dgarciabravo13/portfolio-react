@@ -10,10 +10,10 @@ function App() {
     <Router>
       <div className="demo-big-content">
         <Layout>
-          <NavBar />
+          <NavBar/>
           <Content>
             <div className="page-content" />
-            <Main></Main>
+            <Main/>
           </Content>
         </Layout>
       </div>
