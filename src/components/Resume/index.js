@@ -2,6 +2,8 @@ import React from "react";
 import { Grid, Cell } from "react-mdl";
 import { CellRight, Container, Img, H2, H4, HR } from "./style";
 import Education from "../Education";
+import Experience from "../Experience";
+import Skills from "../Skills";
 
 const Resume = () => {
   return (
@@ -55,6 +57,19 @@ const Resume = () => {
               "Master en programación: Java, .Net, Oracle"
             }
           />
+          <HR />
+          <h2>Experiencia Laboral</h2>
+          <Experience
+            startYear={2003}
+            endYear={2020}
+            jobName={"Comercial Impormovil S.A."}
+            jobDescription={
+              "Soporte, Sistemas y Seguridad"
+            }
+          />
+          <HR />
+          <h2>Habilidades</h2>
+          <Skills/>
         </CellRight>
       </Grid>
     </div>
