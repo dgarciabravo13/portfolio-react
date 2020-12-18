@@ -11,14 +11,31 @@ const NavBar = () => {
 
   return (
     <>
-      <HeaderStyle title={<Link style={{textDecoration:'none', color:'white'}} to="/">My Porfolio</Link>} scroll>
+      <HeaderStyle
+        title={
+          <Link style={{ textDecoration: "none", color: "white" }} to="/">
+            My Porfolio
+          </Link>
+        }
+        scroll
+      >
         <Navigation>
           <Link to="/resume">Resume</Link>
           <Link to="/projects">Projects</Link>
           <Link to="/Contact">Contact</Link>
         </Navigation>
       </HeaderStyle>
-      <Drawer title={<Link style={{textDecoration:'none'}} to="/">My Porfolio</Link>}>
+      <Drawer
+        title={
+          <Link
+            style={{ textDecoration: "none" }}
+            to="/"
+            onClick={toggleDrawerFn}
+          >
+            My Porfolio
+          </Link>
+        }
+      >
         <Navigation>
           <Link to="/resume" onClick={toggleDrawerFn}>
             Resume
