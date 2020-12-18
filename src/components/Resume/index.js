@@ -44,17 +44,17 @@ const Resume = () => {
           <Education
             startYear={2019}
             endYear={2020}
-            schoolName={"Ironhack"}
-            schoolDescription={
-              "BootCamp de desarrollo web: React, Node, Express, HTML, CSS"
-            }
+            schoolName={"IronHack Madrid"}
+            schoolTitle={"Bootcamp Web Development:"}
+            schoolDescription={"Version Control System - HTML/CSS & Responsive Web Design - Bootstrap - HTML Canvas - Javascript - MongoDB - ExpressJS - NodeJS - Axios - React - API Rest - Material UI - Styled Components - React Hook Form - Redux."}
           />
           <Education
             startYear={2001}
             endYear={2003}
             schoolName={"Afi Aula de Formación Informática"}
+            schoolTitle={"Master en sistemas de la información (Desarrollo):"}
             schoolDescription={
-              "Master en programación: Java, .Net, Oracle"
+              "Java, .Net, Oracle."
             }
           />
           <HR />
@@ -63,8 +63,9 @@ const Resume = () => {
             startYear={2003}
             endYear={2020}
             jobName={"Comercial Impormovil S.A."}
+            jobTitle={"Soporte, Sistemas y Seguridad :"}
             jobDescription={
-              "Soporte, Sistemas y Seguridad"
+              "Administración y gestión de firewalls: Fortinet,WatchGuard, Barracuda Spam Firewall y BlueCoat. Administración y gestión de Antivirus Kaspersky y McAfee. Gestión de Incidencias del ERP, en ISeries as400. Conocimientos de SQL y MySQL Browser. Administración y gestión de Windows Server, Directorio Activo, servidor de nombres, Impresoras y copias de seguridad. Mantenimiento de las comunicaciones: VpnIP de Telefónica, CentrexIP y Macrolan. Tareas de microinformática en general. Gestión del software de la empresa: Office365 (Administrador),TecLocal, TecWeb, Libra e IBM i Series"
             }
           />
           <HR />

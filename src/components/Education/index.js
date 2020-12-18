@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Cell } from "react-mdl";
-import { H4 } from "./style";
-const Education = ({ startYear, endYear, schoolName, schoolDescription }) => {
+import { H4, Paragraph } from "./style";
+const Education = ({ startYear, endYear, schoolName, schoolTitle, schoolDescription }) => {
   return (
     <div>
       <Grid>
@@ -10,6 +10,7 @@ const Education = ({ startYear, endYear, schoolName, schoolDescription }) => {
         </Cell>
         <Cell col={8}>
           <H4>{schoolName}</H4>
+          <Paragraph>{schoolTitle}</Paragraph>
           <p>{schoolDescription}</p>
         </Cell>
       </Grid>
