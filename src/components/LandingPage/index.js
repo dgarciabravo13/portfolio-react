@@ -3,8 +3,6 @@ import { Cell } from "react-mdl";
 import {
   faGithub,
   faLinkedin,
-  faFreeCodeCamp,
-  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   Container,
@@ -28,21 +26,15 @@ const LandingPage = () => {
             <H1>Full Stack Web Developer</H1>
             <HR />
             <Paragraph>
-              React | Vue | MongoDB | Nodejs | Express | JavaScript | CSS |
+              React | VueJS | MongoDB | NodeJS | Express | JavaScript | CSS |
               HTML5
             </Paragraph>
             <SocialLinks>
-              <a href="http://www.google.es" target="_blank" rel="noreferrer">
+              <a href="https://github.com/dgarciabravo13/" target="_blank" rel="noreferrer">
                 <Icon icon={faGithub} />
               </a>
-              <a href="http://www.google.es" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/davidgarciabr/" target="_blank" rel="noreferrer">
                 <Icon icon={faLinkedin} />
-              </a>
-              <a href="http://www.google.es" target="_blank" rel="noreferrer">
-                <Icon icon={faFreeCodeCamp} />
-              </a>
-              <a href="http://www.google.es" target="_blank" rel="noreferrer">
-                <Icon icon={faYoutube} />
               </a>
             </SocialLinks>
           </BannerText>
