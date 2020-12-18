@@ -1,14 +1,17 @@
 import styled from "styled-components";
 import { Grid, ListItemContent,List } from "react-mdl";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {device} from '../../device';
 
 export const Container = styled.div`
   margin: auto;
-  /* position: fixed; */
   width: 100%;
   height: 100%;
   padding-top: 2em;
   justify-content: center;
+  @media ${device.laptop} {
+    position:fixed;
+  }
 `;
 
 export const GridStyle = styled(Grid)`
@@ -23,6 +26,17 @@ export const GridStyle = styled(Grid)`
 
 export const H2 = styled.h2`
   font-family: "Anton", sans-serif;
+  font-size: 30px;
+  @media ${device.tablet} {
+    font-size: 40px;
+  }
+`;
+
+export const Img = styled.img`
+  height: 150px;
+  @media ${device.tablet} {
+    height: 250px;
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -31,6 +45,12 @@ export const Paragraph = styled.p`
   padding-top: 1em;
   font-family: "Oxygen", sans-serif;
   font-weight: bold;
+  font-size:0.8em;
+  line-height:normal;
+  @media ${device.tablet} {
+    font-size:1em;
+    line-height: 1.8;
+  }
 `;
 
 export const HR = styled.hr`
@@ -47,9 +67,12 @@ export const Content = styled(List)`
 `;
 
 export const ItemContent = styled(ListItemContent)`
-  font-size: 25px;
+  font-size: 13px;
   font-family: "Anton", sans-serif;
   justify-content:center;
+  @media ${device.tablet}{
+    font-size:25px;
+  }
 `;
 
 export const Icon = styled(FontAwesomeIcon)`

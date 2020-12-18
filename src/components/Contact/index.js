@@ -9,6 +9,7 @@ import {
   Paragraph,
   Icon,
   Content,
+  Img
 } from "./style";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faSkype } from "@fortawesome/free-brands-svg-icons";
@@ -19,10 +20,9 @@ const Contact = () => {
       <GridStyle>
         <Cell col={6}>
           <H2>David García Bravo</H2>
-          <img
+          <Img
             src="https://cdn0.iconfinder.com/data/icons/diversity-v2-0-volume-08/64/hipsters-white-male-512.png"
             alt="avatar"
-            style={{ height: "250px" }}
           />
           <Paragraph>
             Después de realizar el bootcamp de desarrollo web en Ironhack, donde
