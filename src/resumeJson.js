@@ -5,6 +5,7 @@ export const resumeJson =
     "profession": "Full Stack Web Developer",
     "mobile": "699 569 169",
     "email" : "dgarciabravo13@gmail.com",
+    "skype" : "live:.cid.4c297e080b7f4b84",
     "aboutme": "Después de realizar el bootcamp de desarrollo web en Ironhack, donde trabajamos con Javascript, HTML, CSS, Express, Node, MongoDB, Axios,React, Git y Github, decidí consolidar mis conocimientos con dos certificaciones de FreeCodeCamp: Javascript Algorithms and Data-Structures y Responsive Web Design. Continúo formándome a través de cursos de Udemy donde estoy reforzando mis conocimientos de React. Me considero una persona polivalente, dinámica y carismática.Trabajo bien en equipo y considero que tener un buen ambiente en el trabajo es esencial.",
     "education": [
       {
