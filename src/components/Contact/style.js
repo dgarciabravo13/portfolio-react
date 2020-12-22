@@ -9,7 +9,7 @@ export const Container = styled.div`
   height: 100%;
   padding-top: 2em;
   justify-content: center;
-  @media ${device.laptop} {
+  @media ${device.laptopL} {
     position:fixed;
   }
 `;

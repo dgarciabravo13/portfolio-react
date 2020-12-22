@@ -1,18 +1,23 @@
 import React from "react";
 import { Grid, Cell } from "react-mdl";
-import { H4 } from "./style";
-const Experience = ({ startYear, endYear, jobName, jobDescription }) => {
+import { H4,Paragraph } from "./style";
+const Experience = ({ experience }) => {
   return (
     <div>
-      <Grid>
-        <Cell col={4}>
-          {startYear} - {endYear}
-        </Cell>
-        <Cell col={8}>
-          <H4>{jobName}</H4>
-          <p>{jobDescription}</p>
-        </Cell>
-      </Grid>
+      {experience.map((job, index) => {
+        return(
+          <Grid key={index}>
+          <Cell col={4}>
+          {job.startMonth}/{job.startYear} - {job.endMonth}/{job.endYear}
+          </Cell>
+          <Cell col={8}>
+            <H4>{job.jobName}</H4>
+            <Paragraph>{job.jobTitle}</Paragraph>
+            <p>{job.jobDescription}</p>
+          </Cell>
+        </Grid>
+        )
+      })}
     </div>
   );
 };
