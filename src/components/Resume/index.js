@@ -34,23 +34,7 @@ const Resume = () => {
         </Cell>
         <CellRight col={8}>
           <h2>Educación</h2>
-          {/* <Education
-            startYear={2019}
-            endYear={2020}
-            schoolName={"IronHack Madrid"}
-            schoolTitle={"Bootcamp Web Development:"}
-            schoolDescription={"Version Control System - HTML/CSS & Responsive Web Design - Bootstrap - HTML Canvas - Javascript - MongoDB - ExpressJS - NodeJS - Axios - React - API Rest - Material UI - Styled Components - React Hook Form - Redux."}
-          /> */}
           <Education education={education}/>
-          {/* <Education
-            startYear={2001}
-            endYear={2003}
-            schoolName={"Afi Aula de Formación Informática"}
-            schoolTitle={"Master en sistemas de la información (Desarrollo):"}
-            schoolDescription={
-              "Java, .Net, Oracle."
-            }
-          /> */}
           <HR />
           <h2>Experiencia Laboral</h2>
           <Experience
