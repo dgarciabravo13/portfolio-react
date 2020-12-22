@@ -1,6 +1,6 @@
-export const resume = 
+export const resumeJson = 
   {
-    "name": "David Garcia Bravo",
+    "name": "David García Bravo",
     "avatarURL": "https://cdn0.iconfinder.com/data/icons/diversity-v2-0-volume-08/64/hipsters-white-male-512.png",
     "profession": "Full Stack Web Developer",
     "mobile": "699 569 169",
